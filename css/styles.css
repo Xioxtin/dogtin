@@ -1,0 +1,246 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 25px;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 5%;
+  line-height: 5.0rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+.col-lg-6{
+  padding-bottom: 10%;
+}
+.fa-apple{
+  color:white;
+}
+.top-pic{
+  padding-left: 30px;
+}
+.rotated{
+  transform: rotate(25deg);
+
+}
+.navbar-brand{
+  font-size: 3rem;
+  padding-left: 5%;
+}
+.nav-item{
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+
+.pic-size{
+  width: 65%;
+}
+
+.center{
+  text-align: center;
+}
+
+/* .fa-cog {
+  color: #EC994B;
+} */
+.fan-addons{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.fan-addons:hover{
+  color: #ff4c68;
+}
+.container-fluid{
+    padding:5% 0 0 10%;
+    position: relative;
+    z-index: 0;
+}
+.title-img{
+  position: relative;
+  width: 60%;
+  right: 10%;
+  top: 100px;
+  z-index: 1;
+}
+#pic-cutter{
+  position: relative;
+  bottom: 125px;
+  z-index: 2;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.main-header{
+  padding: 10% 0 5% 0;
+}
+  @media (max-width: 990px) {
+  .title-img{
+    width: 70%;
+    position: static;
+  }
+  #pic-cutter{
+    position: static;
+  }
+  .rotated{
+    transform: rotate(0deg);
+  }
+  .top-pic{
+    padding-left: 25%;
+    /* margin-left: 20%; */
+
+  }
+  .main-header{
+    width: 80%;
+    padding: 5% auto;
+    text-align: center;
+  }
+  .mob-set{
+    position: relative;
+    /* left: 3.5%; */
+  }
+  .rep-header{
+    text-align: center;
+  }
+  .main-header{
+    display: block;
+    margin:  0 auto;
+  }
+  .testimonial-text{
+    font-size: 2rem;
+  }
+}
+
+
+.features-padding{
+  padding: 5% 5%;
+}
+#testimonials{
+  font-family: 'Montserrat-Black';
+  background-color: #ef8172;
+
+}
+.carousel-item{
+  padding: 10% 20%;
+}
+.testimonials-img{
+  border-radius: 100%;
+  width: 10%;
+}
+.dog-div{
+  text-align: center;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-img{
+  padding-bottom:5%;
+  max-width: 15%;
+  height: auto;
+  display: inline-block;
+  padding-left: 5%;
+}
+.tnw-img{
+  width: 12%;
+  height: auto;
+}
+.sign{
+  position: relative;
+  bottom: -40px;
+}
+.pricing-intro{
+  text-align: center;
+  line-height: 2rem;
+  color: Black;
+  background-color: #EC994B;
+}
+.card-header-addons{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+color: #8f8f8f;
+padding-bottom: 0;
+}
+.pricing-p{
+  color: Black;
+  line-height: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.pricing-p-intro{
+  text-align: center;
+}
+.pricing-p-intro-1{
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 0;
+  color: #92B4EC;
+  font-size: 3rem;
+}
+.pricing-p-intro-2{
+  text-align: center;
+  padding-bottom: 5%;
+  color: Black;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.padding-card{
+  padding: 2%;
+}
+.btn-addons{
+  padding: 5% 0;
+}
+#cta{
+  background-color: #ff4c68;
+}
+#h3-footer{
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 7% 0;
+  color: white;
+  width: 60%;
+  margin: auto;
+
+}
+.buttons-foot{
+  /* margin: auto; */
+  text-align: center;
+}
+.inline-mod{
+  display: inline;
+}
+.social-media{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.mar-item{
+  margin: 0 5%;
+}
+.icon-color{
+  color: Black;
+}
